@@ -1,0 +1,15 @@
+.container {
+    padding-top: 20px;
+}
+.no-table-data {
+    border: 1px solid #000000;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 39px;
+}
+.left-arrow {
+    font-size: 70px;
+}

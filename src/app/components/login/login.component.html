@@ -1,0 +1,28 @@
+<div class="app-container">
+  <div class="login-block-container">
+    <div class="login-image-block">
+      <img src="https://res.cloudinary.com/dywtmmtyj/image/upload/v1691388223/End_of_school-rafiki_eo2ev8.png" alt="login-image" class="login-image">
+    </div>
+    <div class="login-fields-block">
+        <img src="https://res.cloudinary.com/bhanu-prakash/image/upload/v1691396280/hat_y9zrgk.png" alt="Hat-pic" class="grad-hat">
+        <h2 class="login">Login</h2>
+      <form class="form-section" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <input type="text" id="username" class="input-field" formControlName="username" placeholder="User Name" />
+          <p  class="text-danger error-mesg" *ngIf="loginForm.get('username').invalid && (loginForm.get('username').dirty || loginForm.get('username').touched)"> Username is required*.</p>
+          <div class="password-block mt-3">
+            <input type="{{ showPassword ? 'text' : 'password' }}" id="password" class="password-input-field" formControlName="password" placeholder="Password"/>
+            <div class="icon-container" (click)="togglePasswordVisibility()">
+              <i [ngClass]="showPassword ? 'bi-eye' : 'bi-eye-slash'"></i>
+            </div>
+          </div>
+          <p  class="text-danger error-mesg" *ngIf="loginForm.get('password').invalid && (loginForm.get('password').dirty || loginForm.get('password').touched)"> Password is required*.</p>
+          <p class="text-danger inavlid-mesg mt-3" *ngIf="invalidLogin">Invalid Login Credentials</p>
+        <button type="submit" class="login-button mt-4" [disabled]="loginForm.invalid">Login</button>
+      </form>
+    </div>
+  </div>
+  </div>
+
+
+
+

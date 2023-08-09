@@ -1,0 +1,178 @@
+<div class="container">
+
+<h1>STUDENTS INFO - {{filters.classSelect | uppercase}}</h1>
+<div class="add-button-container">
+  <button type="submit" class="btn btn-outline-primary" (click)="addUser(addingStudent)"> + Add Student</button>
+</div>
+
+
+<table mat-table *ngIf="dataSource.length != 0;else elseblock" [dataSource]="dataSource" class="mat-elevation-z8 demo-table">
+   
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef>Actions</th>
+      <td mat-cell *matCellDef="let element; let i= index">
+        <i class="bi bi-pencil " *ngIf="!isEdit || selectedIndex != i" (click)="editingRow(i)"></i>
+        <i class="bi bi-save" *ngIf="isEdit && selectedIndex === i" (click)="savingRow(i)"></i>
+        <i class="bi bi-eye m-2" (click)="viewStudent(i,viewStudentData)"></i>
+        <i class="bi bi-trash3 m-2" (click)="deleteRow(i)"></i>
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="firstName">
+      <th mat-header-cell *matHeaderCellDef>First Name</th>
+      <td mat-cell *matCellDef="let element; let i= index"> <div *ngIf="!isEdit || selectedIndex != i ;else elseblock">{{element.firstName}}</div>
+      <ng-template #elseblock>
+        <input type="text" name="" id="" class="input-field" [(ngModel)]="firstName">
+      </ng-template>
+
+      </td>
+    </ng-container>
+    <ng-container matColumnDef="lastName">
+      <th mat-header-cell *matHeaderCellDef>Last Name</th>
+      <td mat-cell *matCellDef="let element; let i= index"> <div *ngIf="!isEdit || selectedIndex != i ;else elseblock">{{element.lastName}}</div>
+        <ng-template #elseblock>
+          <input type="text" name="" id="" class="input-field" [(ngModel)]="lastName">
+        </ng-template>
+    </ng-container>
+  
+    <ng-container matColumnDef="rollNo">
+      <th mat-header-cell *matHeaderCellDef>Roll No.</th>
+      <td mat-cell *matCellDef="let element; let i= index"> <div *ngIf="!isEdit || selectedIndex != i ;else elseblock">{{element.rollNo | uppercase}}</div>
+        <ng-template #elseblock>
+          <input type="text" name="" id="" class="input-field" [(ngModel)]="rollNo">
+        </ng-template>
+    </ng-container>
+
+    <ng-container matColumnDef="marksObtained">
+        <th mat-header-cell *matHeaderCellDef>Marks</th>
+        <td mat-cell *matCellDef="let element; let i= index"> <div *ngIf="!isEdit || selectedIndex != i ;else elseblock">{{element.marksObtained}}</div>
+          <ng-template #elseblock>
+            <input type="text" name="" id="" class="input-field" [(ngModel)]="marksObtained">
+          </ng-template>
+      </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table> 
+  <ng-template #elseblock>
+    <div class='no-data-text'>There is No Data</div>
+  </ng-template>
+
+  <ng-template #viewStudentData let-modal>
+    
+    <div class="modal-header">
+      <h4 class="modal-title">Student Details</h4>
+      <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+
+    <div class="modal-body">
+       <div class="pop-up-main-container">
+     
+        <div class="pop-up">
+          <div class="student-details-card">
+            <div class="id-card">
+              <img src="https://res.cloudinary.com/bhanu-prakash/image/upload/v1691525249/girl_1_cd8gpm.png" alt="girl" class="id-card-photo">
+            </div>
+            <ol class="details">
+             <li>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<span> {{visibleStudentData.firstName}}</span></li>
+             <li>Student Id &nbsp;&nbsp;&nbsp;&nbsp;:<span> {{visibleStudentData.rollNo | uppercase}}</span></li>
+             <li>Standard   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<span> {{visibleStudentData.standard}}<sup>th</sup></span></li>
+             <li>Division&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<span>{{visibleStudentData.division | uppercase}}</span></li>
+             <li>Year&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<span> {{visibleStudentData.year | uppercase}}</span></li>
+             <li>Blood Group&nbsp;:<span> {{visibleStudentData.bloodGroup}}</span></li>
+             <li>Parents Contact Number:<span> {{visibleStudentData.parentsContactNo}}</span> </li>
+            </ol>
+          </div>
+          <div class="student-marks-container">
+            
+            <div class="marks-table">
+              <h2 class="std-marks">Student Marks :</h2>
+              <table class="table-data">
+                <tr>
+                  <th>Subject</th>
+                  <th>Marks</th>
+                </tr>
+                <tr *ngFor="let data of visibleStudentData.subjects">
+                  <td>{{subjectMap(data.subject)}}</td>
+                  <td>{{data.marksObtained}}</td>
+                </tr>
+                <tr>
+                  <th>Total</th>
+                  <th>{{getTotalMarks()}}</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+ 
+  </ng-template>
+  
+  <ng-template #addingStudent let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title">Student Information Form</h4>
+      <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+    </div>
+    <div class="container student-form">
+      <form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="firstName" placeholder="First Name" formControlName="firstName" required>
+          <div class="text-danger" *ngIf="studentForm.get('firstName').hasError('required') && studentForm.get('firstName').touched">
+              First Name is required.
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="lastName" placeholder="Last Name" formControlName="lastName" required>
+          <div class="text-danger" *ngIf="studentForm.get('lastName').hasError('required') && studentForm.get('lastName').touched">
+             Last Name is required.
+            </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="rollNo" placeholder="Roll No" formControlName="rollNo" required>
+          <div class="text-danger" *ngIf="studentForm.get('rollNo').hasError('required') && studentForm.get('rollNo').touched">
+              Roll No is required.
+            </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="dob" placeholder="Date Of Birth" formControlName="dob" >
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="standard" placeholder="Standard" formControlName="standard" >
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="division" placeholder="Division" formControlName="division"  readonly>
+        </div>
+        <div class="form-group">
+        <input type="text" class="student-input-fields" id="year" placeholder="Year" formControlName="year"  readonly>
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="bloodGroup" placeholder="Blood Group" formControlName="bloodGroup" >
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="parentsContactNo" placeholder="Parents Contact No" formControlName="parentsContactNo" >
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="studentsImage" placeholder="Image" formControlName="studentsImage" >
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="subject" placeholder="Subject*" formControlName="subject" readonly>
+          <div class="text-danger" *ngIf="studentForm.get('subject').hasError('required') && studentForm.get('subject').touched">
+              Subject is required.
+            </div>
+        </div>
+        <div class="form-group">
+          <input type="text" class="student-input-fields" id="marksObtained" placeholder="Marks*" formControlName="marksObtained" >
+          <div class="text-danger" *ngIf="studentForm.get('marksObtained').hasError('required') && studentForm.get('marksObtained').touched">
+             Marks is required.
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+        <button type="submit" class=" mt-2 mb-4  btn btn-primary" [disabled]="!this.studentForm.valid">Submit</button>
+      </div>
+      </form>
+    </div>
+    
+  </ng-template>
+</div>
+  
+  

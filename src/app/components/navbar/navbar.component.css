@@ -1,0 +1,31 @@
+.navbar-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.website-logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 70px;
+}
+.logout {
+    font-size: 30px;
+    margin-right: 80px;
+}
+.logo-name {
+    font-size: 29px;
+    padding: 8px;
+    font-weight: 600;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.logout:hover {
+    cursor: pointer;
+}

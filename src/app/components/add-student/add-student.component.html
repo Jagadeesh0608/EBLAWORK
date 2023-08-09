@@ -1,0 +1,142 @@
+<!-- <form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+    <div>
+    <label for="firstName">First Name*</label>
+    <input type="text" id="firstName" formControlName="firstName" />
+    <div *ngIf="studentForm.get('firstName').hasError('required') && studentForm.get('firstName').touched">
+      First Name is required.
+    </div>
+    </div>
+  
+    <div>
+        <label for="lastName">Last Name*</label>
+    <input type="text" id="lastName" formControlName="lastName" />
+    <div *ngIf="studentForm.get('lastName').hasError('required') && studentForm.get('lastName').touched">
+      Last Name is required.
+    </div>
+    </div>
+  
+   <div>
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <div *ngIf="studentForm.get('rollno').hasError('required') && studentForm.get('rollno').touched">
+      Roll No is required.
+    </div>
+   </div>
+    <label for="dob">Roll No*</label>
+    <input type="text" id="dob" formControlName="dob" />
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <div *ngIf="studentForm.get('rollno').hasError('required') && studentForm.get('rollno').touched">
+      Roll No is required.
+    </div>
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <div *ngIf="studentForm.get('rollno').hasError('required') && studentForm.get('rollno').touched">
+      Roll No is required.
+    </div>
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <div *ngIf="studentForm.get('rollno').hasError('required') && studentForm.get('rollno').touched">
+      Roll No is required.
+    </div>
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <div *ngIf="studentForm.get('rollno').hasError('required') && studentForm.get('rollno').touched">
+      Roll No is required.
+    </div>
+    <label for="rollno">Roll No*</label>
+    <input type="text" id="rollno" formControlName="rollno" />
+    <div *ngIf="studentForm.get('rollno').hasError('required') && studentForm.get('rollno').touched">
+      Roll No is required.
+    </div>
+
+  
+   
+  
+    <button type="submit" [disabled]="studentForm.invalid">Submit</button>
+  </form>
+   -->
+   <div class="container mt-5">
+    <h2>Student Information Form</h2>
+    <form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="firstName">First Name*</label>
+        <input type="text" class="form-control" id="firstName" formControlName="firstName" required>
+        <div *ngIf="studentForm.get('firstName').hasError('required') && studentForm.get('firstName').touched">
+            First Name is required.
+          </div>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name*</label>
+        <input type="text" class="form-control" id="lastName" formControlName="lastName" required>
+        <div *ngIf="studentForm.get('lastName').hasError('required') && studentForm.get('lastName').touched">
+           Last Name is required.
+          </div>
+      </div>
+      <div class="form-group">
+        <label for="rollno">Roll No*</label>
+        <input type="text" class="form-control" id="rollno" formControlName="rollno" required>
+        <div *ngIf="studentForm.get('lastName').hasError('required') && studentForm.get('lastName').touched">
+            Roll No is required.
+          </div>
+      </div>
+      <div class="form-group">
+        <label for="dob">Date Of Birth</label>
+        <input type="text" class="form-control" id="dob" formControlName="dob" >
+      </div>
+      <div class="form-group">
+        <label for="standard">Standard</label>
+        <input type="text" class="form-control" id="standard" formControlName="standard" >
+      </div>
+      <div class="form-group">
+        <label for="totalMarks">Total Marks</label>
+        <input type="text" class="form-control" id="totalMarks" formControlName="totalMarks" >
+      </div>
+      <div class="form-group">
+        <label for="division">Division</label>
+        <input type="text" class="form-control" id="division" formControlName="division" >
+      </div>
+      <div class="form-group">
+        <label for="year">Year</label>
+        <input type="text" class="form-control" id="year" formControlName="year" >
+      </div>
+      <div class="form-group">
+        <label for="bloodGroup">Blood Group</label>
+        <input type="text" class="form-control" id="bloodGroup" formControlName="bloodGroup" >
+      </div>
+      <div class="form-group">
+        <label for="parentsContactNo">Parents Contact No</label>
+        <input type="text" class="form-control" id="parentsContactNo" formControlName="parentsContactNo" >
+      </div>
+      <div class="form-group">
+        <label for="studentsImage">Image</label>
+        <input type="text" class="form-control" id="studentsImage" formControlName="studentsImage" >
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject*</label>
+        <input type="text" class="form-control" id="subject" formControlName="subject" >
+        <div *ngIf="studentForm.get('subject').hasError('required') && studentForm.get('subject').touched">
+            Subject is required.
+          </div>
+      </div>
+      <div class="form-group">
+        <label for="marksObtained">Marks*</label>
+        <input type="text" class="form-control" id="marksObtained" formControlName="marksObtained" >
+        <div *ngIf="studentForm.get('marksObtained').hasError('required') && studentForm.get('marksObtained').touched">
+           Marks is required.
+          </div>
+      </div>
+      <!-- Add other form controls here -->
+  
+      <button type="submit" class=" mt-2 btn btn-primary">Submit</button>
+    </form>
+  </div>
+  
