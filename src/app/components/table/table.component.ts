@@ -1,7 +1,6 @@
 import { ChangeDetectorRef, Component, Input, OnChanges, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 import { DataService } from 'src/app/services/data.service';
 import { ModalDismissReasons, NgbDatepickerModule, NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { AddStudentComponent } from '../add-student/add-student.component'
 import { FormBuilder, Validators } from '@angular/forms';
 @Component({
   selector: 'app-table',
@@ -28,7 +27,7 @@ export class TableComponent implements OnInit,OnChanges {
     mathematics : "Mathematics",
     naturalScience : "Natural Science",
     physicalScience : "Physical Science",
-    social : "Socail",
+    social : "Social",
     playing : "Playing",
     drawing : "Drawing",
     singing : "Singing",
