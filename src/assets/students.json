@@ -1,822 +1,1566 @@
-[
-    {
-        "id": 1,
-        "firstName": "Jagadeesh",
-        "lastName": "Jorepalli",
-        "dob": "06-08-1999",
-        "rollNo": "16kb1a0441",
-        "standard": "5",
-        "totalMarks": "560",
-        "division": "primary",
-        "year": "year3",
-        "bloodGroup": "B+",
-        "parentsContactNo": 9856789373,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "firstName": "Sekhar",
-        "lastName": "Perathur",
-        "dob": "06-06-1998",
-        "rollNo": "16kb1a0172",
-        "standard": "5",
-        "totalMarks": "550",
-        "division": "primary",
-        "year": "year3",
-        "bloodGroup": "A+",
-        "parentsContactNo": 85002345567,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "90"
-            }
-        ]
-    },
-    {
-        "id": 3,
-        "firstName": "Santhosh",
-        "lastName": "Thirumuru",
-        "dob": "07-08-1999",
-        "rollNo": "16kb1a0421",
-        "standard": "5",
-        "totalMarks": "555",
-        "division": "primary",
-        "year": "year3",
-        "bloodGroup": "B+",
-        "parentsContactNo": 6307653429,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "91"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "91"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "91"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "91"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "91"
-            }
-        ]
-    },
-    {
-        "id": 4,
-        "firstName": "Ravi",
-        "lastName": "Malapati",
-        "dob": "04-06-1999",
-        "rollNo": "16kb1a0431",
-        "standard": "5",
-        "totalMarks": "540",
-        "division": "primary",
-        "year": "year3",
-        "bloodGroup": "O+",
-        "parentsContactNo": 9876435467,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "82"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "89"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "89"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "firstName": "Vignesh",
-        "lastName": "Podhalakuru",
-        "dob": "31-08-1999",
-        "rollNo": "16kb1a0449",
-        "standard": "5",
-        "totalMarks": "556",
-        "division": "primary",
-        "year": "year3",
-        "bloodGroup": "AB+",
-        "parentsContactNo": 6543589760,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 6,
-        "firstName": "Prasad",
-        "lastName": "Dara",
-        "dob": "09-09-1999",
-        "rollNo": "16kb1a0445",
-        "standard": "5",
-        "totalMarks": "560",
-        "division": "secondary",
-        "year": "year3",
-        "bloodGroup": "B+",
-        "parentsContactNo": 6547898609,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "firstName": "Krishna",
-        "lastName": "Mukund",
-        "dob": "09-06-1999",
-        "rollNo": "16kb1a0341",
-        "standard": "5",
-        "totalMarks": "550",
-        "division": "secondary",
-        "year": "year3",
-        "bloodGroup": "B+",
-        "parentsContactNo": 9856789373,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "90"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "firstName": "Thulasi",
-        "lastName": "Parichayam",
-        "dob": "06-08-1999",
-        "rollNo": "16kb1a0441",
-        "standard": "5",
-        "totalMarks": "560",
-        "division": "secondary",
-        "year": "year3",
-        "bloodGroup": "B+",
-        "parentsContactNo": 9856789373,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 9,
-        "firstName": "Ganesh",
-        "lastName": "Bhachupalli",
-        "dob": "05-06-1999",
-        "rollNo": "16kb1a0451",
-        "standard": "5",
-        "totalMarks": "555",
-        "division": "secondary",
-        "year": "year3",
-        "bloodGroup": "A+",
-        "parentsContactNo": 9876543210,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "91"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "91"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "91"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "91"
-            }
-        ]
-    },
-    {
-        "id": 10,
-        "firstName": "Vasu",
-        "lastName": "Jagadam",
-        "dob": "09-04-1999",
-        "rollNo": "16kb1a0421",
-        "standard": "5",
-        "totalMarks": "552",
-        "division": "secondary",
-        "year": "year3",
-        "bloodGroup": "AB+",
-        "parentsContactNo": 9856789373,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "90"
-            }
-        ]
-    },
-    {
-        "id": 11,
-        "firstName": "Sumanth",
-        "lastName": "Kondeti",
-        "dob": "03-07-1999",
-        "rollNo": "16kb1a0241",
-        "standard": "5",
-        "totalMarks": "545",
-        "division": "kg",
-        "year": "lkg",
-        "bloodGroup": "A+",
-        "parentsContactNo": 9856789373,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "drawing",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "singing",
-                "marksObtained": "87"
-            },
-            {
-                "subject": "playing",
-                "marksObtained": "82"
-            }
-        ]
-    },
-    {
-        "id": 12,
-        "firstName": "Kumar",
-        "lastName": "Jivani",
-        "dob": "01-08-1999",
-        "rollNo": "16kb1a0242",
-        "standard": "5",
-        "totalMarks": "550",
-        "division": "kg",
-        "year": "lkg",
-        "bloodGroup": "B+",
-        "parentsContactNo": 9865478900,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "drawing",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "playing",
-                "marksObtained": "88"
-            },
-            {
-                "subject": "singing",
-                "marksObtained": "90"
-            }
-        ]
-    },
-    {
-        "id": 13,
-        "firstName": "Muni",
-        "lastName": "Gundu",
-        "dob": "10-07-1999",
-        "rollNo": "16kb1a0243",
-        "standard": "5",
-        "totalMarks": "560",
-        "division": "kg",
-        "year": "ukg",
-        "bloodGroup": "AB+",
-        "parentsContactNo": 6578953536,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "playing",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "singing",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "drawing",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 14,
-        "firstName": "Guru",
-        "lastName": "Peram",
-        "dob": "16-08-1999",
-        "rollNo": "16kb1a0244",
-        "standard": "5",
-        "totalMarks": "552",
-        "division": "kg",
-        "year": "ukg",
-        "bloodGroup": "B+",
-        "parentsContactNo": 9856789373,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "playing",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "singing",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "drawing",
-                "marksObtained": "90"
-            }
-        ]
-    },
-    {
-        "id": 15,
-        "firstName": "Ramesh",
-        "lastName": "Kumba",
-        "dob": "17-08-1999",
-        "rollNo": "16kb1a0441",
-        "standard": "5",
-        "totalMarks": "555",
-        "division": "kg",
-        "year": "lkg",
-        "bloodGroup": "AB+",
-        "parentsContactNo": 7689765400,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "playing",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "singing",
-                "marksObtained": "91"
-            },
-            {
-                "subject": "drawing",
-                "marksObtained": "91"
-            }
-        ]
-    },
-    {
-        "id": 16,
-        "firstName": "Revanth",
-        "lastName": "Karna",
-        "dob": "18-06-1999",
-        "rollNo": "16kb1a0246",
-        "standard": "5",
-        "totalMarks": "560",
-        "division": "primary",
-        "year": "year2",
-        "bloodGroup": "B+",
-        "parentsContactNo": 9823456733,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 17,
-        "firstName": "Bhanu",
-        "lastName": "Pamuru",
-        "dob": "14-06-1999",
-        "rollNo": "16kb1a0217",
-        "standard": "5",
-        "totalMarks": "550",
-        "division": "primary",
-        "year": "year2",
-        "bloodGroup": "AB+",
-        "parentsContactNo": 7654398720,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "90"
-            }
-        ]
-    },
-    {
-        "id": 18,
-        "firstName": "Pavan",
-        "lastName": "Golla",
-        "dob": "22-08-1999",
-        "rollNo": "16kb1a0218",
-        "standard": "5",
-        "totalMarks": "545",
-        "division": "primary",
-        "year": "year2",
-        "bloodGroup": "O+",
-        "parentsContactNo": 8765898765,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "82"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "91"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 19,
-        "firstName": "Siva",
-        "lastName": "Thota",
-        "dob": "25-09-1999",
-        "rollNo": "16kb1a0219",
-        "standard": "5",
-        "totalMarks": "540",
-        "division": "primary",
-        "year": "year2",
-        "bloodGroup": "AB+",
-        "parentsContactNo": 9456734526,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "82"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "82"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 20,
-        "firstName": "Pravalika",
-        "lastName": "Rajam",
-        "dob": "16-04-1999",
-        "rollNo": "16kb1a0220",
-        "standard": "5",
-        "totalMarks": "530",
-        "division": "primary",
-        "year": "year2",
-        "bloodGroup": "A+",
-        "parentsContactNo": 8500123456,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "82"
-            },
-            {
-                "subject": "naturalScience",
-                "marksObtained": "82"
-            },
-            {
-                "subject": "physicalScience",
-                "marksObtained": "82"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 21,
-        "firstName": "Bharath",
-        "lastName": "Kolupu",
-        "dob": "06-06-1999",
-        "rollNo": "16kb1a0221",
-        "standard": "5",
-        "totalMarks": "560",
-        "division": "secondary",
-        "year": "year2",
-        "bloodGroup": "B+",
-        "parentsContactNo": 8686754345,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 22,
-        "firstName": "Sai",
-        "lastName": "Chitteti",
-        "dob": "08-03-1999",
-        "rollNo": "16kb1a0222",
-        "standard": "5",
-        "totalMarks": "550",
-        "division": "secondary",
-        "year": "year2",
-        "bloodGroup": "AB+",
-        "parentsContactNo": 6578965434,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "89"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "89"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "90"
-            }
-        ]
-    },
-    {
-        "id": 23,
-        "firstName": "Deepak",
-        "lastName": "Lokanadam",
-        "dob": "20-08-1999",
-        "rollNo": "16kb1a0223",
-        "standard": "5",
-        "totalMarks": "555",
-        "division": "secondary",
-        "year": "year2",
-        "bloodGroup": "A+",
-        "parentsContactNo": 8640987654,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    },
-    {
-        "id": 24,
-        "firstName": "Rajesh",
-        "lastName": "Kondepudi",
-        "dob": "26-06-1999",
-        "rollNo": "16kb1a0224",
-        "standard": "5",
-        "totalMarks": "540",
-        "division": "secondary",
-        "year": "year2",
-        "bloodGroup": "O+",
-        "parentsContactNo": 7500987654,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "80"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "92"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "88"
-            }
-        ]
-    },
-    {
-        "id": 25,
-        "firstName": "Prakash",
-        "lastName": "Kundhuru",
-        "dob": "15-07-1999",
-        "rollNo": "16kb1a0225",
-        "standard": "5",
-        "totalMarks": "554",
-        "division": "secondary",
-        "year": "year2",
-        "bloodGroup": "AB+",
-        "parentsContactNo": 7865609876,
-        "studentsImage": "",
-        "subjects": [
-            {
-                "subject": "english",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "mathematics",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "science",
-                "marksObtained": "90"
-            },
-            {
-                "subject": "social",
-                "marksObtained": "92"
-            }
-        ]
-    }
+[{
+    "id": 1,
+    "firstName": "Jagadeesh",
+    "lastName": "Jorepalli",
+    "dob": "06-08-1999",
+    "rollNo": "16kb1a0441",
+    "standard": "5",
+    "totalMarks": "560",
+    "division": "primary",
+    "year": "year3",
+    "bloodGroup": "B+",
+    "parentsContactNo": 9856789373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 2,
+    "firstName": "Sekhar",
+    "lastName": "Perathur",
+    "dob": "06-06-1998",
+    "rollNo": "16kb1a0172",
+    "standard": "5",
+    "totalMarks": "550",
+    "division": "primary",
+    "year": "year3",
+    "bloodGroup": "A+",
+    "parentsContactNo": 85002345567,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "90"
+        }
+    ]
+},
+{
+    "id": 3,
+    "firstName": "Santhosh",
+    "lastName": "Thirumuru",
+    "dob": "07-08-1999",
+    "rollNo": "16kb1a0421",
+    "standard": "5",
+    "totalMarks": "555",
+    "division": "primary",
+    "year": "year3",
+    "bloodGroup": "B+",
+    "parentsContactNo": 6307653429,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "91"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "91"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "91"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "91"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "91"
+        }
+    ]
+},
+{
+    "id": 4,
+    "firstName": "Ravi",
+    "lastName": "Malapati",
+    "dob": "04-06-1999",
+    "rollNo": "16kb1a0431",
+    "standard": "5",
+    "totalMarks": "540",
+    "division": "primary",
+    "year": "year3",
+    "bloodGroup": "O+",
+    "parentsContactNo": 9876435467,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "82"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "89"
+        }
+    ]
+},
+{
+    "id": 5,
+    "firstName": "Vignesh",
+    "lastName": "Podhalakuru",
+    "dob": "31-08-1999",
+    "rollNo": "16kb1a0449",
+    "standard": "5",
+    "totalMarks": "556",
+    "division": "primary",
+    "year": "year3",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 6543589760,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 6,
+    "firstName": "Prasad",
+    "lastName": "Dara",
+    "dob": "09-09-1999",
+    "rollNo": "16kb1a0445",
+    "standard": "5",
+    "totalMarks": "560",
+    "division": "secondary",
+    "year": "year3",
+    "bloodGroup": "B+",
+    "parentsContactNo": 6547898609,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 7,
+    "firstName": "Krishna",
+    "lastName": "Mukund",
+    "dob": "09-06-1999",
+    "rollNo": "16kb1a0341",
+    "standard": "5",
+    "totalMarks": "550",
+    "division": "secondary",
+    "year": "year3",
+    "bloodGroup": "B+",
+    "parentsContactNo": 9856789373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "90"
+        }
+    ]
+},
+{
+    "id": 8,
+    "firstName": "Thulasi",
+    "lastName": "Parichayam",
+    "dob": "06-08-1999",
+    "rollNo": "16kb1a0441",
+    "standard": "5",
+    "totalMarks": "560",
+    "division": "secondary",
+    "year": "year3",
+    "bloodGroup": "B+",
+    "parentsContactNo": 9856789373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 9,
+    "firstName": "Ganesh",
+    "lastName": "Bhachupalli",
+    "dob": "05-06-1999",
+    "rollNo": "16kb1a0451",
+    "standard": "5",
+    "totalMarks": "555",
+    "division": "secondary",
+    "year": "year3",
+    "bloodGroup": "A+",
+    "parentsContactNo": 9876543210,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "91"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "91"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "91"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "91"
+        }
+    ]
+},
+{
+    "id": 10,
+    "firstName": "Vasu",
+    "lastName": "Jagadam",
+    "dob": "09-04-1999",
+    "rollNo": "16kb1a0421",
+    "standard": "5",
+    "totalMarks": "552",
+    "division": "secondary",
+    "year": "year3",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 9856789373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "90"
+        }
+    ]
+},
+{
+    "id": 11,
+    "firstName": "Sumanth",
+    "lastName": "Kondeti",
+    "dob": "03-07-1999",
+    "rollNo": "16kb1a0241",
+    "standard": "5",
+    "totalMarks": "545",
+    "division": "kg",
+    "year": "lkg",
+    "bloodGroup": "A+",
+    "parentsContactNo": 9856789373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "drawing",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "87"
+        },
+        {
+            "subject": "playing",
+            "marksObtained": "82"
+        }
+    ]
+},
+{
+    "id": 12,
+    "firstName": "Kumar",
+    "lastName": "Jivani",
+    "dob": "01-08-1999",
+    "rollNo": "16kb1a0242",
+    "standard": "5",
+    "totalMarks": "550",
+    "division": "kg",
+    "year": "lkg",
+    "bloodGroup": "B+",
+    "parentsContactNo": 9865478900,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "drawing",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "playing",
+            "marksObtained": "88"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "90"
+        }
+    ]
+},
+{
+    "id": 13,
+    "firstName": "Muni",
+    "lastName": "Gundu",
+    "dob": "10-07-1999",
+    "rollNo": "16kb1a0243",
+    "standard": "5",
+    "totalMarks": "560",
+    "division": "kg",
+    "year": "ukg",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 6578953536,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "playing",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "drawing",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 14,
+    "firstName": "Guru",
+    "lastName": "Peram",
+    "dob": "16-08-1999",
+    "rollNo": "16kb1a0244",
+    "standard": "5",
+    "totalMarks": "552",
+    "division": "kg",
+    "year": "ukg",
+    "bloodGroup": "B+",
+    "parentsContactNo": 9856789373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "playing",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "drawing",
+            "marksObtained": "90"
+        }
+    ]
+},
+{
+    "id": 15,
+    "firstName": "Ramesh",
+    "lastName": "Kumba",
+    "dob": "17-08-1999",
+    "rollNo": "16kb1a0441",
+    "standard": "5",
+    "totalMarks": "555",
+    "division": "kg",
+    "year": "lkg",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 7689765400,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "playing",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "91"
+        },
+        {
+            "subject": "drawing",
+            "marksObtained": "91"
+        }
+    ]
+},
+{
+    "id": 16,
+    "firstName": "Revanth",
+    "lastName": "Karna",
+    "dob": "18-06-1999",
+    "rollNo": "16kb1a0246",
+    "standard": "5",
+    "totalMarks": "560",
+    "division": "primary",
+    "year": "year2",
+    "bloodGroup": "B+",
+    "parentsContactNo": 9823456733,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 17,
+    "firstName": "Bhanu",
+    "lastName": "Pamuru",
+    "dob": "14-06-1999",
+    "rollNo": "16kb1a0217",
+    "standard": "5",
+    "totalMarks": "550",
+    "division": "primary",
+    "year": "year2",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 7654398720,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "90"
+        }
+    ]
+},
+{
+    "id": 18,
+    "firstName": "Pavan",
+    "lastName": "Golla",
+    "dob": "22-08-1999",
+    "rollNo": "16kb1a0218",
+    "standard": "5",
+    "totalMarks": "545",
+    "division": "primary",
+    "year": "year2",
+    "bloodGroup": "O+",
+    "parentsContactNo": 8765898765,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "82"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "91"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 19,
+    "firstName": "Siva",
+    "lastName": "Thota",
+    "dob": "25-09-1999",
+    "rollNo": "16kb1a0219",
+    "standard": "5",
+    "totalMarks": "540",
+    "division": "primary",
+    "year": "year2",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 9456734526,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "82"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "82"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 20,
+    "firstName": "Pravalika",
+    "lastName": "Rajam",
+    "dob": "16-04-1999",
+    "rollNo": "16kb1a0220",
+    "standard": "5",
+    "totalMarks": "530",
+    "division": "primary",
+    "year": "year2",
+    "bloodGroup": "A+",
+    "parentsContactNo": 8500123456,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "82"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "82"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "82"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 21,
+    "firstName": "Bharath",
+    "lastName": "Kolupu",
+    "dob": "06-06-1999",
+    "rollNo": "16kb1a0221",
+    "standard": "5",
+    "totalMarks": "560",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "B+",
+    "parentsContactNo": 8686754345,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 22,
+    "firstName": "Sai",
+    "lastName": "Chitteti",
+    "dob": "08-03-1999",
+    "rollNo": "16kb1a0222",
+    "standard": "5",
+    "totalMarks": "550",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 6578965434,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "90"
+        }
+    ]
+},
+{
+    "id": 23,
+    "firstName": "Deepak",
+    "lastName": "Lokanadam",
+    "dob": "20-08-1999",
+    "rollNo": "16kb1a0223",
+    "standard": "5",
+    "totalMarks": "555",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "A+",
+    "parentsContactNo": 8640987654,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 24,
+    "firstName": "Rajesh",
+    "lastName": "Kondepudi",
+    "dob": "26-06-1999",
+    "rollNo": "16kb1a0224",
+    "standard": "5",
+    "totalMarks": "540",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "O+",
+    "parentsContactNo": 7500987654,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "80"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "88"
+        }
+    ]
+},
+{
+    "id": 25,
+    "firstName": "Prakash",
+    "lastName": "Kundhuru",
+    "dob": "15-07-1999",
+    "rollNo": "16kb1a0225",
+    "standard": "5",
+    "totalMarks": "554",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 7865609876,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 26,
+    "firstName": "Akash",
+    "lastName": "Gara",
+    "dob": "08-08-1999",
+    "rollNo": "16kb1a0426",
+    "standard": "4",
+    "totalMarks": "560",
+    "division": "primary",
+    "year": "year4",
+    "bloodGroup": "B+",
+    "parentsContactNo": 9856789370,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "93"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "87"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "78"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "63"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "76"
+        }
+    ]
+},
+{
+    "id": 27,
+    "firstName": "Sreenu",
+    "lastName": "Gara",
+    "dob": "09-07-1998",
+    "rollNo": "16kb1a0426",
+    "standard": "4",
+    "totalMarks": "550",
+    "division": "primary",
+    "year": "year4",
+    "bloodGroup": "A+",
+    "parentsContactNo": 8500245667,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "50"
+        },
+
+        {
+            "subject": "naturalScience",
+            "marksObtained": "67"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "87"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "98"
+        }
+    ]
+},
+{
+    "id": 28,
+    "firstName": "Abhishek",
+    "lastName": "Kuduru",
+    "dob": "12-09-1997",
+    "rollNo": "16kb1a0428",
+    "standard": "9",
+    "totalMarks": "555",
+    "division": "primary",
+    "year": "year4",
+    "bloodGroup": "B+",
+    "parentsContactNo": 6337653429,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "87"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "65"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "64"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "78"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "54"
+        }
+    ]
+},
+{
+    "id": 29,
+    "firstName": "Abhilash",
+    "lastName": "Kuduru",
+    "dob": "22-07-1999",
+    "rollNo": "16kb1a0429",
+    "standard": "8",
+    "totalMarks": "540",
+    "division": "primary",
+    "year": "year4",
+    "bloodGroup": "O+",
+    "parentsContactNo": 9876435767,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "97"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "86"
+        },
+
+        {
+            "subject": "physicalScience",
+            "marksObtained": "76"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "65"
+        }
+    ]
+},
+{
+    "id": 30,
+    "firstName": "Ajay",
+    "lastName": "Kumbala",
+    "dob": "26-06-1998",
+    "rollNo": "16kb1a0430",
+    "standard": "6",
+    "totalMarks": "556",
+    "division": "primary",
+    "year": "year4",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 9523589760,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "67"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "56"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "76"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "45"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "48"
+        }
+    ]
+},
+{
+    "id": 31,
+    "firstName": "Akhil",
+    "lastName": "Puchalappali",
+    "dob": "23-12-1998",
+    "rollNo": "16kb1a0431",
+    "standard": "4",
+    "totalMarks": "560",
+    "division": "secondary",
+    "year": "year1",
+    "bloodGroup": "B+",
+    "parentsContactNo": 8947898609,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "98"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "84"
+        }
+
+    ]
+},
+{
+    "id": 32,
+    "firstName": "Aleem",
+    "lastName": "Shaik",
+    "dob": "17-06-1997",
+    "rollNo": "16kb1a0432",
+    "standard": "8",
+    "totalMarks": "550",
+    "division": "secondary",
+    "year": "year1",
+    "bloodGroup": "B+",
+    "parentsContactNo": 9986789373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "65"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "56"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "76"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "70"
+        }
+    ]
+},
+{
+    "id": 33,
+    "firstName": "Altaf",
+    "lastName": "Shaik",
+    "dob": "23-08-1998",
+    "rollNo": "16kb1a0433",
+    "standard": "7",
+    "totalMarks": "560",
+    "division": "secondary",
+    "year": "year1",
+    "bloodGroup": "B+",
+    "parentsContactNo": 6056789373,
+    "studentsImage": "",
+    "subjects": [
+
+        {
+            "subject": "mathematics",
+            "marksObtained": "97"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "94"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "94"
+        }
+    ]
+},
+{
+    "id": 34,
+    "firstName": "Anusha",
+    "lastName": "Kavali",
+    "dob": "03-05-1998",
+    "rollNo": "16kb1a0434",
+    "standard": "5",
+    "totalMarks": "555",
+    "division": "secondary",
+    "year": "year1",
+    "bloodGroup": "A+",
+    "parentsContactNo": 9436503210,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "66"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "67"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "54"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "46"
+        }
+    ]
+},
+{
+    "id": 35,
+    "firstName": "Joseph",
+    "lastName": "Besha",
+    "dob": "12-06-1997",
+    "rollNo": "16kb1a0435",
+    "standard": "4",
+    "totalMarks": "552",
+    "division": "secondary",
+    "year": "year1",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 6556789373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "86"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "83"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "75"
+        }
+    ]
+},
+{
+    "id": 36,
+    "firstName": "Balu",
+    "lastName": "Yanadhi",
+    "dob": "22-08-1999",
+    "rollNo": "16kb1a0436",
+    "standard": "",
+    "totalMarks": "545",
+    "division": "kg",
+    "year": "lkg",
+    "bloodGroup": "A+",
+    "parentsContactNo": 9856709373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "drawing",
+            "marksObtained": "87"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "67"
+        },
+        {
+            "subject": "playing",
+            "marksObtained": "78"
+        }
+    ]
+},
+{
+    "id": 37,
+    "firstName": "Mosin Basha",
+    "lastName": "Shaik",
+    "dob": "12-06-1998",
+    "rollNo": "16kb1a0437",
+    "standard": "",
+    "totalMarks": "550",
+    "division": "kg",
+    "year": "lkg",
+    "bloodGroup": "B+",
+    "parentsContactNo": 8965478900,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "drawing",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "playing",
+            "marksObtained": "80"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "78"
+        }
+    ]
+},
+{
+    "id": 38,
+    "firstName": "Chandhu",
+    "lastName": "Petlu",
+    "dob": "16-08-1999",
+    "rollNo": "16kb1a0438",
+    "standard": "",
+    "totalMarks": "560",
+    "division": "kg",
+    "year": "ukg",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 9878953536,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "playing",
+            "marksObtained": "54"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "43"
+        },
+        {
+            "subject": "drawing",
+            "marksObtained": "76"
+        }
+    ]
+},
+{
+    "id": 39,
+    "firstName": "Gopal",
+    "lastName": "Rayapu",
+    "dob": "16-08-1998",
+    "rollNo": "16kb1a0439",
+    "standard": "",
+    "totalMarks": "552",
+    "division": "kg",
+    "year": "ukg",
+    "bloodGroup": "B+",
+    "parentsContactNo": 9856789373,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "playing",
+            "marksObtained": "67"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "65"
+        },
+        {
+            "subject": "drawing",
+            "marksObtained": "54"
+        }
+    ]
+},
+{
+    "id": 40,
+    "firstName": "Masthan",
+    "lastName": "Thirumuru",
+    "dob": "18-09-1997",
+    "rollNo": "16kb1a0441",
+    "standard": "",
+    "totalMarks": "555",
+    "division": "kg",
+    "year": "lkg",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 8789765400,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "playing",
+            "marksObtained": "85"
+        },
+        {
+            "subject": "singing",
+            "marksObtained": "99"
+        },
+        {
+            "subject": "drawing",
+            "marksObtained": "95"
+        }
+    ]
+},
+{
+    "id": 41,
+    "firstName": "Chiranjeevi",
+    "lastName": "Konidela",
+    "dob": "18-06-1997",
+    "rollNo": "16kb1a0441",
+    "standard": "",
+    "totalMarks": "560",
+    "division": "primary",
+    "year": "year1",
+    "bloodGroup": "B+",
+    "parentsContactNo": 8923456733,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "78"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "65"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "75"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "86"
+        }
+    ]
+},
+{
+    "id": 42,
+    "firstName": "Divakar",
+    "lastName": "Ingilala",
+    "dob": "17-09-1998",
+    "rollNo": "16kb1a0442",
+    "standard": "",
+    "totalMarks": "550",
+    "division": "primary",
+    "year": "year1",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 9654398720,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "86"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "98"
+        },
+
+        {
+            "subject": "social",
+            "marksObtained": "93"
+        }
+    ]
+},
+{
+    "id": 43,
+    "firstName": "Divya",
+    "lastName": "Kosana",
+    "dob": "26-05-1997",
+    "rollNo": "16kb1a0443",
+    "standard": "",
+    "totalMarks": "545",
+    "division": "primary",
+    "year": "year1",
+    "bloodGroup": "O+",
+    "parentsContactNo": 8765898765,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "72"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "80"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "87"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "86"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "84"
+        }
+    ]
+},
+{
+    "id": 44,
+    "firstName": "Gunasekhar",
+    "lastName": "Thoguru",
+    "dob": "23-12-1998",
+    "rollNo": "16kb1a0444",
+    "standard": "",
+    "totalMarks": "540",
+    "division": "primary",
+    "year": "year1",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 8456734526,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "78"
+        },
+
+        {
+            "subject": "naturalScience",
+            "marksObtained": "82"
+        },
+        {
+            "subject": "physicalScience",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 45,
+    "firstName": "Hemchand",
+    "lastName": "Gajjela",
+    "dob": "17-09-1999",
+    "rollNo": "16kb1a0445",
+    "standard": "",
+    "totalMarks": "530",
+    "division": "primary",
+    "year": "year1",
+    "bloodGroup": "A+",
+    "parentsContactNo": 9800123456,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "87"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "naturalScience",
+            "marksObtained": "97"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 21,
+    "firstName": "Bharath",
+    "lastName": "Kolupu",
+    "dob": "06-06-1999",
+    "rollNo": "16kb1a0221",
+    "standard": "5",
+    "totalMarks": "560",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "B+",
+    "parentsContactNo": 8686754345,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 22,
+    "firstName": "Sai",
+    "lastName": "Chitteti",
+    "dob": "08-03-1999",
+    "rollNo": "16kb1a0222",
+    "standard": "5",
+    "totalMarks": "550",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 6578965434,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "89"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "90"
+        }
+    ]
+},
+{
+    "id": 23,
+    "firstName": "Deepak",
+    "lastName": "Lokanadam",
+    "dob": "20-08-1999",
+    "rollNo": "16kb1a0223",
+    "standard": "5",
+    "totalMarks": "555",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "A+",
+    "parentsContactNo": 8640987654,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+},
+{
+    "id": 24,
+    "firstName": "Rajesh",
+    "lastName": "Kondepudi",
+    "dob": "26-06-1999",
+    "rollNo": "16kb1a0224",
+    "standard": "5",
+    "totalMarks": "540",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "O+",
+    "parentsContactNo": 7500987654,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "80"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "92"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "88"
+        }
+    ]
+},
+{
+    "id": 25,
+    "firstName": "Prakash",
+    "lastName": "Kundhuru",
+    "dob": "15-07-1999",
+    "rollNo": "16kb1a0225",
+    "standard": "5",
+    "totalMarks": "554",
+    "division": "secondary",
+    "year": "year2",
+    "bloodGroup": "AB+",
+    "parentsContactNo": 7865609876,
+    "studentsImage": "",
+    "subjects": [{
+            "subject": "english",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "mathematics",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "science",
+            "marksObtained": "90"
+        },
+        {
+            "subject": "social",
+            "marksObtained": "92"
+        }
+    ]
+}
 ]

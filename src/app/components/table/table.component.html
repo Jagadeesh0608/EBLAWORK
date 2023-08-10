@@ -60,7 +60,7 @@
   <ng-template #viewStudentData let-modal>
     
     <div class="modal-header">
-      <h4 class="modal-title">Student Details</h4>
+      <h2 class="modal-title">Student Details</h2>
       <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
     </div>
 
@@ -110,7 +110,7 @@
   
   <ng-template #addingStudent let-modal>
     <div class="modal-header">
-      <h4 class="modal-title">Student Information Form</h4>
+      <h2 class="modal-title">Student Information Form</h2>
       <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
     </div>
     <div class="container student-form">
@@ -134,7 +134,9 @@
             </div>
         </div>
         <div class="form-group">
-          <input type="text" class="student-input-fields" id="dob" placeholder="Date Of Birth" formControlName="dob" >
+          <input type="text" class="student-input-fields" id="dob" placeholder="Date Of Birth" formControlName="dob" ngbDatepicker
+          #dp="ngbDatepicker" >
+          <button class="btn btn-outline-secondary bi bi-calendar3" (click)="dp.toggle()" type="button"></button>
         </div>
         <div class="form-group">
           <input type="text" class="student-input-fields" id="standard" placeholder="Standard" formControlName="standard" >
@@ -161,7 +163,7 @@
             </div>
         </div>
         <div class="form-group">
-          <input type="text" class="student-input-fields" id="marksObtained" placeholder="Marks*" formControlName="marksObtained" >
+          <input type="number" class="student-input-fields" id="marksObtained" placeholder="Marks*" formControlName="marksObtained" >
           <div class="text-danger" *ngIf="studentForm.get('marksObtained').hasError('required') && studentForm.get('marksObtained').touched">
              Marks is required.
             </div>

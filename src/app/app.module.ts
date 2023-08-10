@@ -12,6 +12,7 @@ import { NgSelectModule } from '@ng-select/ng-select';
 import { TableComponent } from './components/table/table.component'; 
 import {MatTableModule} from '@angular/material/table';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import {  NgbDatepickerModule} from '@ng-bootstrap/ng-bootstrap'
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +30,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ReactiveFormsModule,
     HttpClientModule,
     NgSelectModule,
-    MatTableModule
+    MatTableModule,
+    NgbDatepickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

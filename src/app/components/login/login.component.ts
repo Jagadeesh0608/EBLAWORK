@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {HttpClient} from '@angular/common/http'
-import {Router} from '@angular/router'
+import {Router} from '@angular/router';
+import { AuthService } from 'src/app/services/auth.service'; 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -13,7 +14,8 @@ export class LoginComponent implements OnInit {
   invalidLogin:any;
   constructor(private formBuilder: FormBuilder,
     private httpClient:HttpClient,
-    private router:Router) { }
+    private router:Router,
+    private authService:AuthService) { }
 
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group({
@@ -30,7 +32,6 @@ export class LoginComponent implements OnInit {
     if (this.loginForm.valid) {
       let loggedInData = this.loginForm.value
       this.httpClient.get('assets/users.json').subscribe(res => {
-        console.log(res,this.loginForm.value)
         let usersData:any = res;
          usersData.forEach((user:any)=> {
          if(user.userName == loggedInData.username) {
@@ -38,13 +39,13 @@ export class LoginComponent implements OnInit {
             sessionStorage.setItem('token',this.generatingToken(100))
              this.router.navigate(['home']);
              this.invalidLogin = false;
+             this.authService.setIsloggedIn(true)
             return 
           } else {
             this.invalidLogin = true
+            this.authService.setIsloggedIn(false)
           }
           return
-         } else {
-          this.invalidLogin = true
          }
       })
       })
