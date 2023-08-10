@@ -40,7 +40,7 @@
         <ng-template #elseblock>
           <input type="text" name="" id="" class="input-field" [(ngModel)]="rollNo">
         </ng-template>
-    </ng-container>
+    </ng-container> 
 
     <ng-container matColumnDef="marksObtained">
         <th mat-header-cell *matHeaderCellDef>Marks</th>
@@ -75,7 +75,7 @@
             <ol class="details">
              <li>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<span> {{visibleStudentData.firstName}}</span></li>
              <li>Student Id &nbsp;&nbsp;&nbsp;&nbsp;:<span> {{visibleStudentData.rollNo | uppercase}}</span></li>
-             <li>Standard   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<span> {{visibleStudentData.standard}}<sup>th</sup></span></li>
+             <li *ngIf="visibleStudentData.division !='kg'">Standard   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<span> {{visibleStudentData.standard}}<sup>th</sup></span></li>
              <li>Division&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<span>{{visibleStudentData.division | uppercase}}</span></li>
              <li>Year&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<span> {{visibleStudentData.year | uppercase}}</span></li>
              <li>Blood Group&nbsp;:<span> {{visibleStudentData.bloodGroup}}</span></li>
@@ -154,7 +154,7 @@
           <input type="text" class="student-input-fields" id="parentsContactNo" placeholder="Parents Contact No" formControlName="parentsContactNo" >
         </div>
         <div class="form-group">
-          <input type="text" class="student-input-fields" id="studentsImage" placeholder="Image" formControlName="studentsImage" >
+          <input type="file" class="student-input-fields form-control" id="studentsImage" placeholder="Image" formControlName="studentsImage" >
         </div>
         <div class="form-group">
           <input type="text" class="student-input-fields" id="subject" placeholder="Subject*" formControlName="subject" readonly>

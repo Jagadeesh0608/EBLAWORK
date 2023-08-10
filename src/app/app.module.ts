@@ -12,14 +12,16 @@ import { NgSelectModule } from '@ng-select/ng-select';
 import { TableComponent } from './components/table/table.component'; 
 import {MatTableModule} from '@angular/material/table';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import {  NgbDatepickerModule} from '@ng-bootstrap/ng-bootstrap'
+import {  NgbDatepickerModule} from '@ng-bootstrap/ng-bootstrap';
+import { AutoLogoutComponent } from './components/auto-logout/auto-logout.component'
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
     TableComponent,
-    NavbarComponent
+    NavbarComponent,
+    AutoLogoutComponent
   ],
   imports: [
     BrowserModule,
